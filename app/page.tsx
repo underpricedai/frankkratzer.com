@@ -119,6 +119,7 @@ export default function Home() {
                 4 subscription tiers with REST API access for developers.
               </p>
               <div className="flex flex-wrap gap-2">
+                <span className="text-sm bg-gray-100 px-3 py-1 rounded-full">Claude AI</span>
                 <span className="text-sm bg-gray-100 px-3 py-1 rounded-full">Machine Learning</span>
                 <span className="text-sm bg-gray-100 px-3 py-1 rounded-full">Python</span>
                 <span className="text-sm bg-gray-100 px-3 py-1 rounded-full">REST API</span>
