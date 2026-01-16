@@ -60,14 +60,24 @@ export default function Home() {
           <div className="space-y-12">
             {/* Proofpoint */}
             <div className="border border-gray-200 rounded-xl p-6 md:p-8">
-              <div className="flex items-start gap-4 mb-4">
-                <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <Briefcase className="w-6 h-6 text-blue-600" />
+              <div className="flex items-start justify-between gap-4 mb-4">
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <Briefcase className="w-6 h-6 text-blue-600" />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-semibold">Proofpoint</h3>
+                    <p className="text-gray-500">Sr. System Admin - Digital Experience & Enablement</p>
+                  </div>
                 </div>
-                <div>
-                  <h3 className="text-xl font-semibold">Proofpoint</h3>
-                  <p className="text-gray-500">Sr. System Admin - Digital Experience & Enablement</p>
-                </div>
+                <a
+                  href="https://proofpoint.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-gray-600 transition-colors"
+                >
+                  <ExternalLink className="w-5 h-5" />
+                </a>
               </div>
               <p className="text-gray-600 mb-4">
                 Leading enterprise technology initiatives at a global cybersecurity company.
